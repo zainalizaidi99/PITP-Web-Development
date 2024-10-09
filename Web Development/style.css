@@ -1,0 +1,48 @@
+.template
+{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    display: flex;
+    overflow: hidden;
+    width: 1000px;
+    padding-left: 0px;
+}
+body
+{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.title
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.title li
+{
+    list-style-type: none;
+}
+nav .nav
+{
+  margin: 0px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #001e1e;
+  font-weight: 300px;
+  font-size: 15px;
+}
+
+.navbar p {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1; 
+  font-weight: 600;
+  font-size: 20px;
+}

@@ -1,83 +1,51 @@
-body
+body 
 {
-  background-color: grey;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+    background-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+
 }
-.temp
+.card 
 {
-  background-color: whitesmoke;
-  border-radius: 10px;
-  padding: 10px;
-  overflow: hidden;
+    color: white;
 }
-.navbar ul
+h2 
 {
-  list-style-type: none;
-  background-color: white;
-  padding: 0px;
-  margin: 0px;
-  overflow: hidden;
+    text-align: center;
+    font-size: 30px;
 }
 
-.navbar a
+.list 
 {
-  text-decoration: none;
-  color: black;
-  text-align: center;
-  display: block;
-  padding-left: 25px;
-  padding-right: 10px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  font-size: 20px;
-}
-.navbar li
-{
-  float: left;
+    list-style: none;
+
 }
 
-.title
+.item 
 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gray;
+    width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
-.title p
+.sunny
 {
-  display: flex;
-  font-weight: 600;
-  font-size: 30px;
+    background-color: yellow;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
 }
-.button
+.cloudy
 {
-  height: 40px;
-  margin: 10px;
-  border-radius: 15px;
-  border: none;
-  background-color: black;
-  color: white;
-  width: 150px;
-}
-.button1
-{
-  height: 40px;
-  margin: 10px;
-  border-radius: 15px;
-  border: none;
-  background-color: black;
-  color: white;
-}
-h5
-{
-  color: grey;
-}
-.cat
-{
-  display: flex;
-  justify-content: right;
+    background-color: lightgrey;
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
 }

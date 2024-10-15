@@ -1,0 +1,49 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(9, 9, 69);
+    color: white;
+}
+h2
+{
+    text-align: center;
+}
+span
+{
+    flex-grow: 1;
+}
+.temp
+{
+    float: right;
+}
+.item
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(47, 47, 106, 0.794);
+    padding: 6px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 350px;
+}
+.sunny
+{
+    background-color: yellow;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.cloudy
+{
+    background-color: lightgray;
+    width: 20px;
+    height: 20px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
